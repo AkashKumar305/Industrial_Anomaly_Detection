@@ -15,6 +15,7 @@ The primary goal of this project is to develop an anomaly detection system for i
 ## Execution Workflow
 1. **Data Preprocessing**: 
    - Load sensor data from a CSV file.
+   - Perform Moving Average Smoothing technique to reduce noise in the data.
    - Preprocess the data by handling missing values, removing outliers using Interquartile Range (IQR), and converting timestamps to appropriate formats.
    - Perform one-hot encoding for categorical variables.
 
